@@ -43,6 +43,16 @@
             Manage Subscriptions
           </v-list-item-title>
         </v-list-item>
+        <v-list-item>
+          <v-list-item-action>
+            <v-icon color="grey darken-1">
+              mdi-login
+            </v-icon>
+          </v-list-item-action>
+          <v-list-item-title class="grey--text text--darken-1">
+            <NuxtLink to="/login">Login</NuxtLink>
+          </v-list-item-title>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
     <v-app-bar color="primary" dense fixed clipped-left app>
@@ -62,6 +72,9 @@
           color="white"
           hide-details
         />
+        <v-btn icon color="test" large @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+          <v-icon>mdi-theme-light-dark</v-icon>
+        </v-btn>
       </v-layout>
     </v-app-bar>
     <v-content>

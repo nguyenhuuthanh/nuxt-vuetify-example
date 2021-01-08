@@ -1,0 +1,20 @@
+{
+  "name": "nuxtjs-vuetify",
+  "version": "1.0.0",
+  "description": "Nuxt starter for Web App project",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "1.8.3",
+    "nuxt": "2.9.2",
+    "reqlim": "0.0.0"
+  },
+  "keywords": []
+}

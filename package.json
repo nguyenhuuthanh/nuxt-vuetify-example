@@ -12,6 +12,7 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/vuetify": "1.11.2",
     "nuxt": "2.14.0",
     "reqlim": "0.0.0"

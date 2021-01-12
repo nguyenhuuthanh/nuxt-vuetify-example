@@ -33,14 +33,17 @@ export default {
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/axios.js',
+  ],
 
   /*
    ** Nuxt.js modules
    ** Doc: https://nuxtjs.org/guide/modules
    */
   modules: [
-    "@nuxtjs/vuetify",
+    '@nuxtjs/vuetify',
+    '@nuxtjs/axios',
   ],
 
   // Doc: https://github.com/nuxt-community/vuetify-module

@@ -77,9 +77,9 @@
         </v-btn>
       </v-layout>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <Nuxt />
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

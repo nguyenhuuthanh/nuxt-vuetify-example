@@ -10,7 +10,7 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Nuxt.js Vuetify starter for CSB",
+    title: "Nuxt.js Vuetify starter",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -41,8 +41,6 @@ export default {
    */
   modules: [
     "@nuxtjs/vuetify",
-    // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
   ],
 
   // Doc: https://github.com/nuxt-community/vuetify-module
